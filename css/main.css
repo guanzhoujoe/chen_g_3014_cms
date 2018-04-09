@@ -1,0 +1,133 @@
+.hidden
+{
+  display:none;
+}
+
+
+.mainbody{
+  background: url(../images/background.jpg) no-repeat center center fixed;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+
+h2 {
+
+  color: black;
+  font-size: 36px;
+
+}
+
+
+.filterNav{
+  float:left;
+  list-style: none;
+  margin-left: 10px;
+}
+
+.filterNav li{
+  display: inline;
+  margin-left: 20px;
+}
+
+.filterNav li a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  background-color: pink;
+}
+#Signin
+{
+  margin-left: 30px;
+}
+
+#cont{
+  padding-top: 80px;
+
+}
+
+.b{
+    background-color:  #1ad1ff;
+
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#loin{
+  background-color: pink;
+}
+
+.loginbackground
+{
+  background: url(../images/loginbackground.png) no-repeat center center fixed;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#logincont
+{
+  text-align: center;
+
+  padding-top: 150px;
+  width: 50%;
+  padding-left: 350px;
+}
+
+
+#loginbackground
+{
+  background: url(../images/loginbackground.png) no-repeat center center fixed;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#editpage{
+  margin-top: -100px;
+}
+
+
+
+
+/* #loginhome
+{
+  text-align: right;
+} */
+.logininnav li{
+  list-style: none;
+  background
+}
+
+#signhome{
+  float: left;
+  text-decoration: none;
+}
+
+.imgmovie
+{
+  width: 300px;
+}
+
+#videosize
+{
+  width: 800px;
+}
