@@ -1,11 +1,7 @@
 <?php
 	//ini_set('display_errors',1);
 	//error_reporting(E_ALL);
-	echo"<section id=\"loginhome\">";
-	if(!empty($message)){echo $message;}
-	include('../includes/navlogin.html');
 
-	echo "</section>";
 
 	require_once('phpscripts/config.php');
 	confirm_logged_in();
@@ -17,7 +13,13 @@
 <title>login</title>
 <link rel="stylesheet" href="../css/main.css">
 </head>
+
 <body class="loginbackground">
+	<?php echo"<section id=\"loginhome\">";
+	if(!empty($message)){echo $message;}
+	include('../includes/navlogin.html');
+
+	echo "</section>"; ?>
 	<h1>Welcome Here to your admin page</h1>
 	<div id="admin">
 	<?php echo "<h2>Hi-{$_SESSION['user_name']}</h2>"; ?>
